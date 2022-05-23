@@ -6,7 +6,7 @@ int hammingWeight(uint32_t n) {
             n &= (n-1);
             count++;
         }
-        return count;        
+        return count;
 }
 
 int main(){
